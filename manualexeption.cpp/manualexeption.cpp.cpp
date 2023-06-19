@@ -10,3 +10,5 @@ int main ()
 	}
 	catch (int a) {
 		//blok ini akan dieksekusi
+		cout << "pengecualian akan dieksekusi" << endl;
+	}

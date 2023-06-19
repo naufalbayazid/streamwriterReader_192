@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main ()
+int main()
 {
 	try {
 		cout << "Selamat belajar di Prodi TI UMY" << endl;
@@ -12,3 +12,10 @@ int main ()
 		//blok ini akan dieksekusi
 		cout << "pengecualian akan dieksekusi" << endl;
 	}
+	catch (...) {
+		/*jika selain integer maka blok ini akan dieksekusi*/
+		cout << "default pengecualian dieksekusi" << endl;
+	}
+
+	return 0;
+}
